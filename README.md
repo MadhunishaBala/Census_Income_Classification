@@ -1,15 +1,27 @@
 # Census Income Classfication
+## Importion of Libraries
+## Extracting the dataset from the ucml Repository
+## Overview of the data
 ## Data Cleaning  
-- Check for Null values, In this case null values were present in form of "?", so replaced "?" wil NaN
-- Replaced Null values with the mode
-- Dropped unwanted columns
-- Visualized the types of data present to see which type of encoding to use
-- Used Binary encoding for data with two types (Income & Sex)
-- Used Label encoding for data with more than two types
-## Machine Learning Models
+- Checking the types of categorical vairiable
+- Replace "." with "" for income
+- Handling Null values
+- Checking the Coorelation
+- Dropping 'fnlwgt'
+- Visualization of Numerical variables
+- Visualization of Categorical variables
+## Feature Engineering
+   - Label Encoding
+   - Scaling the Data
+## Model Training
 - Data splitting
 - Train the model for Naive Bayes and Random Forest
 - Test the model for Naive Bayes and Random Forest
 ## Evaluation
-- Print the confusion matrix for Naive Bayes and Random Forest
-- Print the classification report for Naive Bayes and Random Forest
+- Compare the Training and Testing Accuracy
+- Compare the classififcation Report
+- Comapre the Confusion Matrix
+
+![image](https://github.com/MadhunishaBala/Census_Income_Classification/assets/127708789/bc22d639-15c3-4673-a863-d6401ffa0076)
+
+
